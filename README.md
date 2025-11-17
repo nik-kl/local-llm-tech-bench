@@ -1,4 +1,16 @@
 This report details the performance of four leading open-source LLMs on Apple M3 hardware across a four-level suite designed to test technical fidelity, complex reasoning, coding, and security domain knowledge.
+## Model Sizes & Quantization (README)
+| Model Name           | Parameter Count | Selected Quantization | File Size |
+|----------------------|-----------------|-----------------------|-----------|
+| GPT-OSS:20B          | 21 B (MoE)      | MXFP4                 | 12.11 GB  |
+| Llama 3 8B Instruct | 8 B (Dense)     | Q8_0                  | 8.54 GB   |
+| Qwen 2.5 Coder 14B   | 14 B (Dense)    | Q4_K_M                | 8.99 GB   |
+| DeepSeek Coder 33B   | 33 B (Dense)    | Q3_K_M                | 16.07 GB  |
+**Rationale** – Each quantization was chosen to fit within the ~18 GB usable memory of the M3 while preserving as much fidelity as possible:  
+• MXFP4 is a proprietary 4‑bit format that keeps MoE weights efficient.  
+• Q8_0 is nearly lossless for dense models, giving you speed without sacrificing accuracy on the M3.  
+• Q4_K_M balances quality and size for the 14 B model.  
+• Q3_K_M squeezes the 33 B model below the memory ceiling at the cost of a modest fidelity drop.
 ## Key Findings & Overall Winner
 |**Model**|**Total Score (Max 36)**|**Average Score (Max 3.0)**|**Performance Summary**|
 |---|---|---|---|
