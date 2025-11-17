@@ -6,6 +6,7 @@ This report details the performance of four leading open-source LLMs on Apple M3
 | Llama 3 8B Instruct | 8 B (Dense)     | Q8_0                  | 8.54 GB   |
 | Qwen 2.5 Coder 14B   | 14 B (Dense)    | Q4_K_M                | 8.99 GB   |
 | DeepSeek Coder 33B   | 33 B (Dense)    | Q3_K_M                | 16.07 GB  |
+
 **Rationale** – Each quantization was chosen to fit within the ~18 GB usable memory of the M3 while preserving as much fidelity as possible:  
 • MXFP4 is a proprietary 4‑bit format that keeps MoE weights efficient.  
 • Q8_0 is nearly lossless for dense models, giving you speed without sacrificing accuracy on the M3.  
