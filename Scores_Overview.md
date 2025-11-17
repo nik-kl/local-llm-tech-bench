@@ -1,5 +1,7 @@
 # 📊 Scores In-Depth: 4-Level Comparative Matrix (Max Score: 36)
 
+---
+
 Scores are out of 3 points for each prompt, with 3 being a perfect adherence to all constraints and correctness checks.
 
 | Prompt ID & Skill Tested | Success Criteria (3 Points) | GPT-OSS:20B | Llama 3 8B | DeepSeek 33B | Qwen 14B |
@@ -21,3 +23,9 @@ Scores are out of 3 points for each prompt, with 3 being a perfect adherence to 
 | 4.2: Vulnerability (XSS) | Diff + Primary Mitigation for both. | 3/3 (Perfect) | 2/3 (Weak mitigation for Stored) | 2/3 (Weak mitigation for Stored) | 2/3 (Weak mitigation for Stored) |
 | 4.3: Port Scanner Script | Pseudocode, `socket`, Specific Firewall Reason. | 2/3 (Generic Firewall Reason) | 1/3 (Flawed Code/Generic Reason) | 2/3 (Generic Firewall Reason) | 2/3 (Generic Firewall Reason) |
 | **GRAND TOTAL SCORE** | **Max 36** | **31 / 36** | **16 / 36** | **16 / 36** | **25 / 36** |
+
+## Quick Take‑Away
+
+* GPT‑OSS:20B leads with 31/36, excelling in logic and technical design but falters on formatting.
+* Qwen 14B scores 25/36, strong in math & SQL but weaker on network tasks.
+* Llama 3 8B and DeepSeek 33B both land at 16/36, highlighting the trade‑off between size and precision on Apple M3 hardware.
