@@ -26,6 +26,6 @@ Scores are out of 3 points for each prompt, with 3 being a perfect adherence to 
 
 ## Quick Take‑Away
 
-* GPT‑OSS:20B leads with 31/36, excelling in logic and technical design but falters on formatting.
+* GPT‑OSS:20B leads with 32/36, excelling in logic and technical design but falters on formatting.
 * Qwen 14B scores 25/36, strong in math & SQL but weaker on network tasks.
 * Llama 3 8B and DeepSeek 33B both land at 16/36, highlighting the trade‑off between size and precision on Apple M3 hardware.
