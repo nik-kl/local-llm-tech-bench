@@ -20,7 +20,7 @@ This report evaluates **four leading LLMs**—GPT‑OSS:20B, Qwen 2.5 Coder�
 ## Key Findings & Overall Winner
 |**Model**|**Total Score (Max 36)**|**Average Score (Max 3.0)**|**Performance Summary**|
 |---|---|---|---|
-|**GPT-OSS:20B**|**31 / 36**|**2.58**|**WINNER (Fidelity):** Showed maximal accuracy in complex SQL/Math and the highest adherence to multi-step reasoning constraints. Excellent technical model, but struggles with formatting and experienced a cache failure under load.|
+|**GPT-OSS:20B**|**32 / 36**|**2.58**|**WINNER (Fidelity):** Showed maximal accuracy in complex SQL/Math and the highest adherence to multi-step reasoning constraints. Excellent technical model, but struggles with formatting.|
 |**Qwen 2.5 Coder 14B**|**25 / 36**|**2.08**|**Strong Specialist:** Near-perfect technical domain knowledge (Level 4 Subnetting/Code) but has poor compliance with basic formatting and creative constraints (Level 1).|
 |**DeepSeek Coder 33B**|**16 / 36**|**1.33**|**Weakest Performance:** Despite being the largest, it struggled with fundamental math and logic, failing many core constraints and scoring the lowest overall.|
 |**Llama 3 8B Instruct**|**16 / 36**|**1.33**|**Fastest Latency:** Failed critical reasoning and coding tasks (Level 2/3), confirming its size (8B) provides speed but lacks the necessary precision for specialized technical analysis.|
