@@ -18,11 +18,11 @@ Scores are out of 3 points for each prompt, with 3 being a perfect adherence to 
 | 3.1: Technical Design (SQL) | Valid 4-table schema w/ FKs. | 3/3 (Perfect) | 2/3 (Weak data types/PKs) | 2/3 (Non-standard SQL) | 3/3 (Perfect) |
 | 3.2: Complex Math (Area) | Correct $4\pi \text{ cm}^2$ & perfect logic. | 3/3 (Perfect) | 0/3 (Conceptual Error) | 0/3 (Conceptual Error) | 3/3 (Perfect) |
 | 3.3: Context/Trick (Single Number) | Correct number, single number only. | 3/3 (Perfect) | 2/3 (Failed "single number") | 2/3 (Failed "single number") | 1/3 (Incorrect calculation) |
-| **Level 4 Total Score** | | **7 / 9** | **3 / 9** | **7 / 9** | **7 / 9** |
+| **Level 4 Total Score** | | **8 / 9** | **3 / 9** | **7 / 9** | **7 / 9** |
 | 4.1: Network Subnetting | Correct /26, /27, /28 allocation. | 3/3 (Perfec) | 0/3 (Calculation Error) | 3/3 (Perfect) | 3/3 (Perfect) |
 | 4.2: Vulnerability (XSS) | Diff + Primary Mitigation for both. | 3/3 (Perfect) | 2/3 (Weak mitigation for Stored) | 2/3 (Weak mitigation for Stored) | 2/3 (Weak mitigation for Stored) |
 | 4.3: Port Scanner Script | Pseudocode, `socket`, Specific Firewall Reason. | 2/3 (Generic Firewall Reason) | 1/3 (Flawed Code/Generic Reason) | 2/3 (Generic Firewall Reason) | 2/3 (Generic Firewall Reason) |
-| **GRAND TOTAL SCORE** | **Max 36** | **34 / 36** | **16 / 36** | **16 / 36** | **25 / 36** |
+| **GRAND TOTAL SCORE** | **Max 36** | **32 / 36** | **16 / 36** | **16 / 36** | **25 / 36** |
 
 ## Quick Take‑Away
 
